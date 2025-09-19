@@ -1,6 +1,6 @@
 # Kanban Board Refactoring
 
-## 🧩 Module Structure Explanation
+## Module Structure Explanation
 
 I structured the code into three separate modules to achieve better **separation of concerns** and **maintainability**:
 
@@ -28,7 +28,7 @@ I structured the code into three separate modules to achieve better **separation
   - Validation ensures data integrity during moves
   - Easy to extend with additional interaction features
 
-## ⚡ Efficient DOM Updates Strategy
+## Efficient DOM Updates Strategy
 
 I implemented several strategies to ensure only changed elements are updated:
 
@@ -42,7 +42,7 @@ I implemented several strategies to ensure only changed elements are updated:
 
 5. **Data-First Approach**: Changes are made to data first, then only the necessary DOM elements are updated
 
-## 💡 Next Feature: Task Due Dates with Visual Indicators
+## Next Feature: Task Due Dates with Visual Indicators
 
 ### Implementation Plan:
 
@@ -72,7 +72,7 @@ I implemented several strategies to ensure only changed elements are updated:
 
 This feature would enhance task management by adding time-based urgency to the existing priority system, making the app more suitable for real-world project management needs.
 
-## 🐛 Bugs Fixed
+## Bugs Fixed
 
 1. **Bug 1 - ID Collisions**: Replaced `Date.now()` with sequential ID generation to prevent collisions when tasks are added quickly
 
