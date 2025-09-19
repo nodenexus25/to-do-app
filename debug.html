@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Test</title>
+</head>
+<body>
+    <h1>Debug Test</h1>
+    <div id="result"></div>
+    
+    <script src="storage.js"></script>
+    <script>
+        console.log('Storage script loaded');
+        console.log('taskStorage type:', typeof taskStorage);
+        console.log('taskStorage value:', taskStorage);
+        
+        document.getElementById('result').innerHTML = 'taskStorage is ' + typeof taskStorage;
+    </script>
+    
+    <script src="render.js"></script>
+    <script>
+        console.log('Render script loaded');
+        console.log('taskRenderer type:', typeof taskRenderer);
+    </script>
+    
+    <script src="app.js"></script>
+    <script>
+        console.log('App script loaded');
+    </script>
+</body>
+</html>
